@@ -12,7 +12,7 @@ void main(List<String> args) {
        debugShowCheckedModeBanner: false,
        title: 'Time Tracker',
        theme: ThemeData(
-         primarySwatch: Colors.green.shade200,
+         primarySwatch: Colors.green,
        ),//ftftyr
        home: SignInPage(),
      );
