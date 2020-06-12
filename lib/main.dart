@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:new_app/app/sign_in/app_sign_in.dart';
+import 'package:new_app/app/landing_page.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -14,7 +14,7 @@ void main(List<String> args) {
        theme: ThemeData(
          primarySwatch: Colors.green,
        ),//ftftyr
-       home: SignInPage(),
+       home: LandingPage(),
      );
    }
  }
